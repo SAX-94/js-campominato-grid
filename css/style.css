@@ -5,10 +5,16 @@
 .grid-container {
     display: flex;
     flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.grid-container .cell {
+.cell {
     width: var(--cell-size);
     height: var(--cell-size);
     border: 1px solid black;
+}
+
+.click-blue {
+    background-color: aqua;
 }
