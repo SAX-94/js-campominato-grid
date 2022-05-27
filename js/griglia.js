@@ -29,3 +29,5 @@ function createGrid(xCells, yCells) {
         gridContainer.append(cell);
     }
 }
+
+createGrid (10, 10)
