@@ -16,18 +16,6 @@ body {
     height: 100vh;
 }
 
-.grid-container {
-    display: flex;
-    flex-wrap: wrap;
-    height: 85%;
-}
-
-.cell {
-    width: var(--cell-size);
-    height: var(--cell-size);
-    border: 1px solid black;
-}
-
 /******************************
     UTILITIES
 *******************************/
@@ -44,15 +32,39 @@ body {
 HEADER
 */
 header {
-    height: 8vh;
+    height: 4rem;
     background-color: white;
+}
+
+header img {
+    height: 2rem;
+}
+
+header .game-title {
+    color: #121c37;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    font-weight: 700;
 }
 
 /*
 MAIN
 */
-
 main {
-    height: 80vh;
+    height: 90vh;
     background-color: #acfbd5;
+}
+
+
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 85%;
+}
+
+.cell {
+    width: var(--cell-size);
+    height: var(--cell-size);
+    border: 1px solid black;
 }
