@@ -27,7 +27,11 @@ function createGrid(xCells, yCells) {
         cell.append(cellNumber.toString());
         // Inserisco il div nel grid-container.
         gridContainer.append(cell);
+        cell.addEventListener("click", function(){
+            cell.classList.add("click-blue");
+        })
     }
 }
 
-createGrid (10, 10)
+createGrid (10, 10);
+
