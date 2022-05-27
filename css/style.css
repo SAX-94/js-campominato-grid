@@ -2,18 +2,14 @@
     GENERAL STYLES
 *******************************/
 
-
 :root {
     --cell-size: 40px;
     --click-cell-color: #7996eb;
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.container {
     height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /******************************
@@ -51,11 +47,9 @@ header .game-title {
 MAIN
 */
 main {
-    height: 90vh;
+    height: 83vh;
     background-color: #acfbd5;
 }
-
-
 
 .grid-container {
     display: flex;
@@ -67,4 +61,17 @@ main {
     width: var(--cell-size);
     height: var(--cell-size);
     border: 1px solid black;
+}
+
+/*
+FOOTER
+*/
+footer {
+    height: 3rem;
+    background-color: white;
+}
+
+footer a {
+    text-decoration: underline;
+    color: #743089;
 }
