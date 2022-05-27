@@ -16,7 +16,8 @@ L’utente indica un livello di difficoltà in base al quale viene generata una 
 
 Quando l’utente clicca su ogni cella, la cella cliccata si colora di azzurro.
 
-**Consigli del giorno: :party_wizard:**
+**Consigli del giorno:**
+
 - Scriviamo prima cosa vogliamo fare passo passo in italiano, dividiamo il lavoro in micro problemi.
 - Ad esempio: Di cosa ho bisogno per generare i numeri?
 - Proviamo sempre prima con dei console.log() per capire se stiamo ricevendo i dati giusti.
