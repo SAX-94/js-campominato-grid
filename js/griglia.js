@@ -1,5 +1,5 @@
 const gridContainer = document.querySelector(".grid-container");
-// Creo una griglia con celle 50x50
+// Creo una griglia con celle 40x40
 // Uso un ciclo per creare le celle
 // Creo un div per ogni cella
 // Appendo la cell a grid-container
@@ -27,6 +27,7 @@ function createGrid(xCells, yCells) {
         cell.append(cellNumber.toString());
         // Inserisco il div nel grid-container.
         gridContainer.append(cell);
+        // Se clickata, la cella diventa blu
         cell.addEventListener("click", function(){
             cell.classList.add("click-blue");
         })
@@ -34,4 +35,3 @@ function createGrid(xCells, yCells) {
 }
 
 createGrid (10, 10);
-
